@@ -137,10 +137,10 @@ header .nav-section {
 }
 
 .projects-section {
-    position: relative; /* Ensure the section is positioned relative to contain the pseudo-element */
-    background-color: transparent; /* Ensure the background color is transparent */
-    padding: 20px; /* Add padding if needed */
-    overflow: hidden; /* Hide any overflow from the pseudo-element */
+    position: relative; 
+    background-color: transparent; 
+    padding: 20px; 
+    overflow: hidden; 
 }
 
 .projects-section::before {
@@ -150,11 +150,11 @@ header .nav-section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("assets/bg-2.jpg"); /* Replace with the path to your image */
-    background-size: cover; /* Ensure the image covers the entire section */
-    background-position: center; /* Center the image */
-    opacity: 0.3; /* Adjust the opacity to your liking */
-    z-index: -1; /* Ensure the pseudo-element is behind the content */
+    background-image: url("assets/bg-2.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.3;
+    z-index: -1;
 }
 
 
@@ -165,7 +165,7 @@ header .nav-section {
 }
 
 .project_card {
-    margin: 1rem; /* Adjust the margin to control the spacing */
+    margin: 1rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,13 +173,13 @@ header .nav-section {
 }
 
 .card_content {
-    position: relative; /* Position relative to allow absolute positioning within */
+    position: relative; 
 }
 
 .card_content img {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Optional: add some rounding to the image corners */
+    border-radius: 8px; 
 }
 
 .domain_name {
@@ -187,7 +187,7 @@ header .nav-section {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 0.5rem 1rem; /* Add padding around the text */
+    padding: 0.5rem 1rem; 
     background-color: #FFFFFF;
     color: var(--text-light);
     border-bottom-left-radius: 8px;
@@ -195,9 +195,9 @@ header .nav-section {
 }
 
 .domain_name span {
-    font-size: 1.5rem; /* Make the text bigger */
+    font-size: 1.5rem;
     font-style: italic;
-    text-align: center; /* Ensure the text is centered */
+    text-align: center;
 }
 
 
